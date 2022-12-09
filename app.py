@@ -28,4 +28,5 @@ def scrape():
 
 # Tell flask to run
 if __name__ == "__main__":
-   app.run()
+    # If running as script, print scraped data
+    print(scrape_all())
